@@ -1,0 +1,281 @@
+.logo{
+    width: 10%;
+}
+
+
+
+
+
+.header{
+    background-color: #937DC2;
+}
+.search{
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    height: 70%;
+    justify-content: end;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+}
+.btn{
+    width: 20%;
+    border: none;
+}
+.btn:hover{
+    border: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+.title{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.pop{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.food{
+    width: 100%;
+    border-radius: 20px;
+}
+.recipe{
+    background-color: whitesmoke;
+    height: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.link{
+    border: none;
+    color: black;
+    margin-left: 30%;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.548);
+  }
+  .modal form {
+    position: relative;
+    min-width: 30%;
+    min-width: 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+  }
+  #modal-kapat {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: gray;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    cursor: pointer;
+  }
+  #modal-kapat:hover {
+    background: rgb(102, 102, 102);
+  }
+  .modal form input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  #form-buton {
+    background: #ff6378;
+  }
+  #form-buton:hover {
+    background: #fa5369;
+  }
+
+  .modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.548);
+  }
+  .modal2 form {
+    position: relative;
+    min-width: 30%;
+    min-width: 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+  }
+  #modal-kapat2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: gray;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    cursor: pointer;
+  }
+  #modal-kapat2:hover {
+    background: rgb(102, 102, 102);
+  }
+ label{
+    color: crimson;
+ }
+  .modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.548);
+  }
+  .modal2 form {
+    position: relative;
+    min-width: 30%;
+    min-width: 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+  }
+  #modal-kapat2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: gray;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    cursor: pointer;
+  }
+  #modal-kapat2:hover {
+    background: rgb(102, 102, 102);
+  }
+ label{
+    color: crimson;
+    font-weight: bold;
+ }
+
+
+ .modal3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.548);
+  }
+  .modal3 form {
+    position: relative;
+    min-width: 30%;
+    min-width: 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+  }
+  #modal-kapat3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: gray;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    cursor: pointer;
+  }
+  #modal-kapat3:hover {
+    background: rgb(102, 102, 102);
+  }
+
+.tarif{
+ text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 3%;
+}
+.tarif:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+  .area{
+    resize: none;
+  }
+
+.form{
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+.name{
+  width: 98%;
+  border-radius: 20px;
+  height: 5%;
+}
+textarea{
+  border-radius: 20px;
+}
+.share{
+  width: 22%;
+  height: 10%;
+  background-color: coral;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-left: 30%;
+}
+.exit{
+  width: 22%;
+  height: 10%;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+.vaz{
+  text-decoration: none;
+  color: #fff;
+}
+.menu{
+  text-decoration: none;
+  color: #fff;
+}
+.menus{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .menus {
+   display: none;
+  }
+}
